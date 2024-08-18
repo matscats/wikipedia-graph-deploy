@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Matscats"
+  },
+  "text": {
+    "more": "Connection between wikipedia pages based on the fusion of three seeds: \"Culinaria do norte do brasil\", \"Artesanato brasileiro\" and \"Festas Juninas\"",
+    "intro": "Connection between wikipedia pages based on the fusion of three seeds: \"Culinaria do norte do brasil\", \"Artesanato brasileiro\" and \"Festas Juninas\"",
+    "title": "Wikipedia network"
+  },
+  "legend": {
+    "edgeLabel": "Hyperlink between pages",
+    "colorLabel": "Community",
+    "nodeLabel": "Wikipedia page"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "In-Degree"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
